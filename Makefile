@@ -12,3 +12,6 @@ test.o: test.cpp
 
 md5Source.o: md5Source.cpp
 	g++ -Wall -I. -c md5Source.cpp
+
+clean:
+	rm *.o test md5
