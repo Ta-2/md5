@@ -109,7 +109,7 @@ typedef union LongTo2W{
 
 class md5{
 private:
-	ui A = 0x67452301, B = 0xEFCDAB89, C = 0x98BADCFE, D = 10325476; 
+	ui A = 0x67452301, B = 0xEFCDAB89, C = 0x98BADCFE, D = 0x10325476; 
 	string plain, ans;
 	vector<CBS> ByteBlock;
 public:
