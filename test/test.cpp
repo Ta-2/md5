@@ -3,7 +3,7 @@
 int main(){
 	md5 m("abc");
 	string ans = m.CalcHash();
-	cout << "answer" << ans << endl;
+	cout << "answer: " << ans << endl;
 
 	return 0;
 }
